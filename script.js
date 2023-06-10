@@ -89,3 +89,17 @@ function makeLast(nums) {
   }
 }
 
+// exercise double23
+
+function double23(nums) {
+    if (nums === []){
+        return false;
+    }
+    for (var i = 0; i < nums.length; i++) {
+        if (nums[i] === 2 && nums[i + 1] === 2 || nums[i] === 3 && nums[i + 1] === 3) {
+            return true;
+        } else return false;
+    }
+    return false;
+}
+
