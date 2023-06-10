@@ -103,3 +103,14 @@ function double23(nums) {
     return false;
 }
 
+// exercise start1
+
+function start1(a, b) {
+    if (a[0] === 1 && b[0 ] === 1) {
+        return 2;
+    }
+    if (a[0] === 1 || b[0 ] === 1) {
+        return 1;
+    }
+    return 0;
+}
