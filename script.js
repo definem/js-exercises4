@@ -74,3 +74,18 @@ function reverse3(nums) {
 function middleWay(a, b) {
   return [a[1], b[1]];
 }
+
+// exercise makeLas
+
+//  int[] arr = new int[2 * nums.length];
+//     arr[arr.length - 1] = nums[nums.length - 1];
+//     return arr;
+
+function makeLast(nums) {
+  if (nums[0] === 6 || nums[nums.length - 1] === 6) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
