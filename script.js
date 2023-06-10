@@ -1,4 +1,4 @@
-// < ---- Bismillah ---- > 
+// < ---- Bismillah ---- >
 
 // Execrcises from CodingJs (Array-1)
 
@@ -70,8 +70,7 @@ function reverse3(nums) {
 }
 
 // exercise middleArray
-// not working(())
 
-function middleWay(a, b){
-  return new int[] {a[1], b[1]};
+function middleWay(a, b) {
+  return [a[1], b[1]];
 }
