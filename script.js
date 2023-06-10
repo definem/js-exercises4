@@ -2,7 +2,7 @@
 
 // Execrcises from CodingJs (Array-1)
 
-// exercise sameFirstLast
+// Exercise sameFirstLast
 
 function sameFirstLast(nums) {
   if (nums.length > 0 && nums[0] === nums[nums.length - 1]) {
@@ -12,7 +12,7 @@ function sameFirstLast(nums) {
   }
 }
 
-// exercise commonEnd
+// Exercise commonEnd
 
 function commonEnd(a, b) {
   if (a[0] === b[0] || a[a.length - 1] === b[b.length - 1]) {
@@ -22,7 +22,7 @@ function commonEnd(a, b) {
   }
 }
 
-// exercise sum3
+// Exercise sum3
 
 function sum3(nums) {
   let res = 0;
@@ -32,7 +32,7 @@ function sum3(nums) {
   return res;
 }
 
-// exercise sum 2
+// Exercise sum 2
 
 function sum2(nums) {
   if (nums.length == 0) return 0;
@@ -42,7 +42,7 @@ function sum2(nums) {
   return nums[0] + nums[1];
 }
 
-// exercise rotateLeft3
+// Exercise rotateLeft3
 
 function rotateLeft3(nums) {
   let first = nums[0];
@@ -52,7 +52,7 @@ function rotateLeft3(nums) {
   return nums;
 }
 
-// exercise reverse3
+// Exercise reverse3
 // method-1
 
 function reverse3(nums) {
@@ -69,13 +69,13 @@ function reverse3(nums) {
   return res;
 }
 
-// exercise middleArray
+// Exercise middleArray
 
 function middleWay(a, b) {
   return [a[1], b[1]];
 }
 
-// exercise makeLas
+// Exercise makeLas
 
 //  int[] arr = new int[2 * nums.length];
 //     arr[arr.length - 1] = nums[nums.length - 1];
@@ -89,28 +89,43 @@ function makeLast(nums) {
   }
 }
 
-// exercise double23
+// Exercise double23
 
 function double23(nums) {
-    if (nums === []){
-        return false;
-    }
-    for (var i = 0; i < nums.length; i++) {
-        if (nums[i] === 2 && nums[i + 1] === 2 || nums[i] === 3 && nums[i + 1] === 3) {
-            return true;
-        } else return false;
-    }
+  if (nums === []) {
     return false;
+  }
+  for (var i = 0; i < nums.length; i++) {
+    if (
+      (nums[i] === 2 && nums[i + 1] === 2) ||
+      (nums[i] === 3 && nums[i + 1] === 3)
+    ) {
+      return true;
+    } else return false;
+  }
+  return false;
 }
 
-// exercise start1
+// Exercise start1
 
 function start1(a, b) {
-    if (a[0] === 1 && b[0 ] === 1) {
-        return 2;
-    }
-    if (a[0] === 1 || b[0 ] === 1) {
-        return 1;
-    }
-    return 0;
+  if (a[0] === 1 && b[0] === 1) {
+    return 2;
+  }
+  if (a[0] === 1 || b[0] === 1) {
+    return 1;
+  }
+  return 0;
+}
+
+// Exercises from CodeWars
+// Exercise removeSmalles (7-kyu)
+
+function removeSmallest(numbers) {
+
+  const copy = numbers.slice(0);
+  let kichikQiymat = numbers.indexOf(Math.min(...numbers));
+  copy.splice(kichikQiymat, 1);
+
+  return copy;
 }
