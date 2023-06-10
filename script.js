@@ -68,3 +68,10 @@ function reverse3(nums) {
 
   return res;
 }
+
+// exercise middleArray
+// not working(())
+
+function middleWay(a, b){
+  return new int[] {a[1], b[1]};
+}
