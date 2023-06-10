@@ -9,8 +9,8 @@ function sameFirstLast(nums) {
     return true;
   } else {
     return false;
-  }
-}
+  };
+};
 
 // Exercise commonEnd
 
@@ -19,8 +19,8 @@ function commonEnd(a, b) {
     return true;
   } else {
     return false;
-  }
-}
+  };
+};
 
 // Exercise sum3
 
@@ -28,9 +28,9 @@ function sum3(nums) {
   let res = 0;
   for (let i = 0; i < nums.length; i++) {
     res += nums[i];
-  }
+  };
   return res;
-}
+};
 
 // Exercise sum 2
 
@@ -40,7 +40,7 @@ function sum2(nums) {
   if (nums.length == 1) return nums[0];
 
   return nums[0] + nums[1];
-}
+};
 
 // Exercise rotateLeft3
 
@@ -50,14 +50,14 @@ function rotateLeft3(nums) {
   nums.push(first);
 
   return nums;
-}
+};
 
 // Exercise reverse3
 // method-1
 
 function reverse3(nums) {
   return nums.reverse();
-}
+};
 
 // method-2
 function reverse3(nums) {
@@ -67,13 +67,13 @@ function reverse3(nums) {
   }
 
   return res;
-}
+};
 
 // Exercise middleArray
 
 function middleWay(a, b) {
   return [a[1], b[1]];
-}
+};
 
 // Exercise makeLas
 
@@ -86,8 +86,8 @@ function makeLast(nums) {
     return true;
   } else {
     return false;
-  }
-}
+  };
+};
 
 // Exercise double23
 
@@ -102,21 +102,21 @@ function double23(nums) {
     ) {
       return true;
     } else return false;
-  }
+  };
   return false;
-}
+};
 
 // Exercise start1
 
 function start1(a, b) {
   if (a[0] === 1 && b[0] === 1) {
     return 2;
-  }
+  };
   if (a[0] === 1 || b[0] === 1) {
     return 1;
-  }
+  };
   return 0;
-}
+};
 
 // Exercises from CodeWars
 // Exercise removeSmalles (7-kyu)
@@ -128,4 +128,24 @@ function removeSmallest(numbers) {
   copy.splice(kichikQiymat, 1);
 
   return copy;
-}
+};
+
+// Exercise Testing-1-2-3
+
+var number = function (array) {
+    let array = ['a', 'b', 'c', 'd']
+    for (let i = 0; i < array.length; i++) {
+        arr[i] = `${i+1}: ${array[i]}`
+    };
+    return array;
+};
+
+// Exercise My Language Skills
+
+var number = function (array) {
+    let array = ['a', 'b', 'c', 'd']
+    for (let i = 0; i < array.length; i++) {
+        arr[i] = `${i+1}: ${array[i]}`
+    };
+    return array;
+};
