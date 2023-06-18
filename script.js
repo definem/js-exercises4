@@ -236,3 +236,13 @@ console.log(fizzArray(1));
 function only14(nums){
   return nums.every(v => v === 1 || v === 4)
 }
+
+// exercise
+
+function no14(nums){
+  if(nums.includes(1) && nums.includes(4)){
+    return false
+  } else {
+    return true
+  }
+}
