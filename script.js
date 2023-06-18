@@ -289,3 +289,10 @@ function reverse3(nums){
   
   return res
 }
+
+// exercise reverse
+
+function reverse3(nums){
+  return nums.reverse()
+}
+
