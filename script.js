@@ -255,5 +255,16 @@ function flattenAndSort(array) {
 
 console.log(flattenAndSort([[], [1, [[[[[[[[[[[[2, [[[[[[[[[[[[[5]]]]]]]]]]]]]]]]]]]]]]]]]], []]));
 
+// exercise findTheCapitals
 
+var capitals = function (word) {
+  let res = [];
+  for (let i = 0; i < word.length; i++) {
+    if (word[i] === word[i].toUpperCase()) {
+      res.push(word.indexOf(word[i]));
+    }
+  }
+  return res;
+};
 
+console.log(capitals("CodEWaRs"));
