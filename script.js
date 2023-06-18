@@ -188,6 +188,8 @@ var number = function (array) {
      }
  }
 
+// exercise
+
  console.log(lucky13([5, 2, 4]));
 
   function sum28(nums) {
@@ -196,3 +198,15 @@ var number = function (array) {
 }
 
 console.log(sum28([1, 2, 4, 2, 5, 2, 2]));
+
+// exercise
+
+function more14(nums) {
+  let birlar = nums.filter((v) => v === 1);
+  let tortlar = nums.filter((v) => v === 4);
+  return birlar.length > tortlar.length ? true : false;
+}
+
+console.log(more14([1, 4, 1, 1, 4, 1]));
+
+
