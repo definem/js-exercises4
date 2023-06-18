@@ -189,3 +189,10 @@ var number = function (array) {
  }
 
  console.log(lucky13([5, 2, 4]));
+
+  function sum28(nums) {
+  let res = nums.filter((v) => v === 2);
+  return res.length === 4 ? true : false;
+}
+
+console.log(sum28([1, 2, 4, 2, 5, 2, 2]));
