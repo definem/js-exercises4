@@ -141,3 +141,15 @@ var number = function (array) {
 };
 
 // Exercises from CodeWars and CodingJs
+
+ function findLowestIndex(nums) {
+   let minNum = Math.min(...nums);
+   return nums.indexOf(minNum);
+}
+ console.log(findLowestIndex([99, 98, 97, 96, 95]));
+ console.log(findLowestIndex([99, 98, 97, 96, 95]));
+ console.log(findLowestIndex([99, 98, 97, 96, 95]));
+ console.log(findLowestIndex([99, 98, 97, 96, 95]));
+
+
+
