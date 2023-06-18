@@ -151,5 +151,14 @@ var number = function (array) {
  console.log(findLowestIndex([99, 98, 97, 96, 95]));
  console.log(findLowestIndex([99, 98, 97, 96, 95]));
 
+// exercise
 
+ function countEvens(nums) {
+   let count = 0;
+   nums.map((val) => val % 2 === 0 && count++, 0);
 
+   return count;
+ }
+ console.log(countEvens([2, 1, 2, 3, 4]));
+
+// exercise 
