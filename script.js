@@ -180,3 +180,12 @@ var number = function (array) {
 
 // exercise
 
+ function lucky13(nums) {
+     if(nums.includes(1) || nums.includes(3)){
+         return false
+     } else {
+         return true
+     }
+ }
+
+ console.log(lucky13([5, 2, 4]));
