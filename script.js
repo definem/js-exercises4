@@ -229,4 +229,10 @@ function fizzArray(n) {
   return res
 }
 
+// exercise
+
 console.log(fizzArray(1));
+
+function only14(nums){
+  return nums.every(v => v === 1 || v === 4)
+}
