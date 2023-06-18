@@ -325,3 +325,15 @@ function sameFirstLast(nums){
     return false
   }
 }
+
+// exercise maxEnd3
+
+function maxEnd3(nums){
+  let max = Math.max(nums[0], nums[nums.length - 1]);
+  let res = [];
+  for (let i = 0; i < nums.length; i++) {
+    res.push(max);
+  }
+
+  return res;
+}
