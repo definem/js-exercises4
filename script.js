@@ -209,4 +209,12 @@ function more14(nums) {
 
 console.log(more14([1, 4, 1, 1, 4, 1]));
 
+// exercise
 
+function prependSum(nums) {
+  nums.splice(0, 1, nums[0] + nums[1]);
+  nums.splice(1, 1);
+  return nums;
+}
+
+console.log(prependSum([1, 1, 1, 1, 1]));
