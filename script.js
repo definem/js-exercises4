@@ -279,7 +279,7 @@ var number = function (array) {
     return array;
 };
 
-// exercise
+// exercise 1-method
 
 function reverse3(nums){
   let res = []
@@ -290,7 +290,7 @@ function reverse3(nums){
   return res
 }
 
-// exercise reverse
+// exercise 2-method
 
 function reverse3(nums){
   return nums.reverse()
