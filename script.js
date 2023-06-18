@@ -315,3 +315,13 @@ function commonEnd(a, b){
     return false
   }
 }
+
+// exercise sameFirstLast
+
+function sameFirstLast(nums){
+  if(nums.length > 0 && nums[0] === nums[nums.length - 1]){
+    return true
+  } else {
+    return false
+  }
+}
