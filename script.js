@@ -162,3 +162,14 @@ var number = function (array) {
  console.log(countEvens([2, 1, 2, 3, 4]));
 
 // exercise 
+
+ let count = 0;
+ function sum13(nums) {
+   for (let i = 0; i < nums.length; i++) {
+     if (nums[i] === 13) {
+       return 0;
+     } else {
+       count += nums[i];
+     }
+   }
+ }
