@@ -218,3 +218,15 @@ function prependSum(nums) {
 }
 
 console.log(prependSum([1, 1, 1, 1, 1]));
+
+// exercise
+
+function fizzArray(n) {
+  let res = [];
+  for (let i = 0; i < n; i++) {
+    res.push(i);
+  }
+  return res
+}
+
+console.log(fizzArray(1));
