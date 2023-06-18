@@ -173,3 +173,10 @@ var number = function (array) {
      }
    }
  }
+
+ sum13([1, 2, 2, 1, 13, 213, 4, 5, 6]);
+
+ console.log(count);
+
+// exercise
+
