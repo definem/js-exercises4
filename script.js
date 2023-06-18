@@ -140,6 +140,4 @@ var number = function (array) {
     return array;
 };
 
-// Exercise My Language Skills
-
-// ...
+// Exercises from CodeWars and CodingJs
