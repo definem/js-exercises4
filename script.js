@@ -268,3 +268,13 @@ var capitals = function (word) {
 };
 
 console.log(capitals("CodEWaRs"));
+
+// exercise 
+
+var number = function (array) {
+    let array = ['a', 'b', 'c', 'd']
+    for (let i = 0; i < array.length; i++) {
+        arr[i] = ${i+1}: ${array[i]}
+    }
+    return array;
+};
