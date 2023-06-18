@@ -296,3 +296,12 @@ function reverse3(nums){
   return nums.reverse()
 }
 
+// exercise rotateLeft3
+
+function rotateLeft3(nums){
+   let first = nums[0];
+  nums.shift();
+  nums.push(first);
+
+  return nums;
+}
