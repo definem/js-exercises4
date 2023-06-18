@@ -246,3 +246,14 @@ function no14(nums){
     return true
   }
 }
+
+// exercise flattenAndSort
+
+function flattenAndSort(array) {
+  return array.flat(Infinity).sort((a, b) => a - b);
+}
+
+console.log(flattenAndSort([[], [1, [[[[[[[[[[[[2, [[[[[[[[[[[[[5]]]]]]]]]]]]]]]]]]]]]]]]]], []]));
+
+
+
